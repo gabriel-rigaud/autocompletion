@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")no-repeat;
+    background-size: 350rem;
+    background-position: center;
+    background-position-y: 0px;
+}
+
+.title{
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.title a{
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.form-group {
+    display: inline-block;
+}
+
+
+#search{
+    font-size: 22px;
+}
+
+.submit {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info{
+    font-size: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+.info h1{
+    font-size: 4rem;
+}
+
+.info p{
+    font-size: 2rem;
+    color: black;
+    font-style: italic;
+}
+
+.form-control {
+    display: inline-block;
+    width: 900px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.container{
+    text-align: center;
+    width: 850px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.container h1{
+    padding: 40px;
+}
+
+.contenu img{
+    width: 400px;
+}
+
+.contenu{
+    font-size: 28px;
+}
+
+::selection{
+    background-color: black;
+    color: blueviolet;
+}
